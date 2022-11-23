@@ -75,6 +75,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const _c0 = function () { return ["/read-subscribers"]; };
 class ReadSubscriberComponent {
     constructor(
     // injecte les services
@@ -112,7 +113,7 @@ class ReadSubscriberComponent {
     }
 }
 ReadSubscriberComponent.ɵfac = function ReadSubscriberComponent_Factory(t) { return new (t || ReadSubscriberComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_service_subscribers_service__WEBPACK_IMPORTED_MODULE_2__["SubscribersService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"])); };
-ReadSubscriberComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReadSubscriberComponent, selectors: [["app-read-subscriber"]], decls: 44, vars: 1, consts: [[1, "mt-3", "container", "section"], [1, "mb-5"], [1, "spantitleh2"], [1, "table", "table-striped", "table-hover", "mx-auto", "bg-white", 3, "formGroup"], ["colspan", "2", 1, "text-center"], ["type", "number", "formControlName", "id", 1, "form-control", "shadow-none"], ["type", "text", "formControlName", "fname", 1, "form-control", "shadow-none"], ["type", "text", "formControlName", "lname", 1, "form-control", "shadow-none"], ["type", "text", "formControlName", "email", 1, "form-control", "shadow-none"], ["type", "text", "formControlName", "created", 1, "form-control", "shadow-none"], ["type", "text", "formControlName", "ip", 1, "form-control", "shadow-none"], ["href", "/read-subscribers", 1, "float-right"]], template: function ReadSubscriberComponent_Template(rf, ctx) { if (rf & 1) {
+ReadSubscriberComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReadSubscriberComponent, selectors: [["app-read-subscriber"]], decls: 44, vars: 3, consts: [[1, "mt-3", "container", "section"], [1, "mb-5"], [1, "spantitleh2"], [1, "table", "table-striped", "table-hover", "mx-auto", "bg-white", 3, "formGroup"], ["colspan", "2", 1, "text-center"], ["type", "number", "formControlName", "id", 1, "form-control", "shadow-none"], ["type", "text", "formControlName", "fname", 1, "form-control", "shadow-none"], ["type", "text", "formControlName", "lname", 1, "form-control", "shadow-none"], ["type", "text", "formControlName", "email", 1, "form-control", "shadow-none"], ["type", "text", "formControlName", "created", 1, "form-control", "shadow-none"], ["type", "text", "formControlName", "ip", 1, "form-control", "shadow-none"], [1, "float-right", 3, "routerLink"]], template: function ReadSubscriberComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h2", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 2);
@@ -187,7 +188,9 @@ ReadSubscriberComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("formGroup", ctx.createSubscriberForm);
-    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NumberValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControlName"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyZWFkLXN1YnNjcmliZXIuY29tcG9uZW50LmNzcyJ9 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](2, _c0));
+    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NumberValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControlName"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterLinkWithHref"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyZWFkLXN1YnNjcmliZXIuY29tcG9uZW50LmNzcyJ9 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ReadSubscriberComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -269,6 +272,7 @@ function CreateSubscriberComponent_div_25_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Please enter a valid email");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
+const _c0 = function () { return ["/read-subscribers"]; };
 class CreateSubscriberComponent {
     constructor(
     // injecte les services
@@ -302,7 +306,7 @@ class CreateSubscriberComponent {
     }
 }
 CreateSubscriberComponent.ɵfac = function CreateSubscriberComponent_Factory(t) { return new (t || CreateSubscriberComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_service_subscribers_service__WEBPACK_IMPORTED_MODULE_2__["SubscribersService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"])); };
-CreateSubscriberComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CreateSubscriberComponent, selectors: [["app-create-subscriber"]], decls: 31, vars: 9, consts: [[1, "mt-3", "container", "section"], [1, "mb-5"], [1, "spantitleh2"], [1, "formContainer"], ["novalidate", "", 1, "form", 3, "formGroup"], [1, "form-group"], ["for", "fname"], ["type", "text", "formControlName", "fname", "name", "fname", "id", "fname", "autofocus", "", 1, "form-control", "shadow-none"], ["class", "text-danger", 4, "ngIf"], ["for", "lname"], ["type", "text", "formControlName", "lname", "name", "lname", "id", "lname", 1, "form-control", "shadow-none"], ["for", "email"], ["type", "email", "formControlName", "email", "name", "email", "id", "email", 1, "form-control", "shadow-none"], [1, "shadow-none", 3, "disabled", "click"], ["href", "/read-subscribers", 1, "float-right"], [1, "text-danger"]], template: function CreateSubscriberComponent_Template(rf, ctx) { if (rf & 1) {
+CreateSubscriberComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CreateSubscriberComponent, selectors: [["app-create-subscriber"]], decls: 31, vars: 11, consts: [[1, "mt-3", "container", "section"], [1, "mb-5"], [1, "spantitleh2"], [1, "formContainer"], ["novalidate", "", 1, "form", 3, "formGroup"], [1, "form-group"], ["for", "fname"], ["type", "text", "formControlName", "fname", "name", "fname", "id", "fname", "autofocus", "", 1, "form-control", "shadow-none"], ["class", "text-danger", 4, "ngIf"], ["for", "lname"], ["type", "text", "formControlName", "lname", "name", "lname", "id", "lname", 1, "form-control", "shadow-none"], ["for", "email"], ["type", "email", "formControlName", "email", "name", "email", "id", "email", 1, "form-control", "shadow-none"], [1, "shadow-none", 3, "disabled", "click"], [1, "float-right", 3, "routerLink"], [1, "text-danger"]], template: function CreateSubscriberComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h2", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 2);
@@ -367,7 +371,9 @@ CreateSubscriberComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.createSubscriberForm.get("email").hasError("pattern") && ctx.createSubscriberForm.get("email").touched);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", ctx.createSubscriberForm.invalid);
-    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjcmVhdGUtc3Vic2NyaWJlci5jb21wb25lbnQuY3NzIn0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](10, _c0));
+    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterLinkWithHref"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjcmVhdGUtc3Vic2NyaWJlci5jb21wb25lbnQuY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CreateSubscriberComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -2740,6 +2746,7 @@ function UpdateSubscriberComponent_div_25_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Please enter a valid email");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
+const _c0 = function () { return ["/read-subscribers"]; };
 class UpdateSubscriberComponent {
     constructor(
     // injecte les services
@@ -2789,7 +2796,7 @@ class UpdateSubscriberComponent {
     }
 }
 UpdateSubscriberComponent.ɵfac = function UpdateSubscriberComponent_Factory(t) { return new (t || UpdateSubscriberComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_service_subscribers_service__WEBPACK_IMPORTED_MODULE_2__["SubscribersService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"])); };
-UpdateSubscriberComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UpdateSubscriberComponent, selectors: [["app-update-subscriber"]], decls: 31, vars: 9, consts: [[1, "mt-3", "container", "section"], [1, "mb-5"], [1, "spantitleh2"], [1, "formContainer"], ["novalidate", "", 1, "form", 3, "formGroup"], [1, "form-group"], ["for", "fname"], ["type", "text", "formControlName", "fname", "name", "fname", "id", "fname", "autofocus", "", 1, "form-control", "shadow-none"], ["class", "text-danger", 4, "ngIf"], ["for", "lname"], ["type", "text", "formControlName", "lname", "name", "lname", "id", "lname", 1, "form-control", "shadow-none"], ["for", "email"], ["type", "email", "formControlName", "email", "name", "email", "id", "email", 1, "form-control", "shadow-none"], [1, "shadow-none", 3, "disabled", "click"], ["href", "/read-subscribers", 1, "float-right"], [1, "text-danger"]], template: function UpdateSubscriberComponent_Template(rf, ctx) { if (rf & 1) {
+UpdateSubscriberComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UpdateSubscriberComponent, selectors: [["app-update-subscriber"]], decls: 31, vars: 11, consts: [[1, "mt-3", "container", "section"], [1, "mb-5"], [1, "spantitleh2"], [1, "formContainer"], ["novalidate", "", 1, "form", 3, "formGroup"], [1, "form-group"], ["for", "fname"], ["type", "text", "formControlName", "fname", "name", "fname", "id", "fname", "autofocus", "", 1, "form-control", "shadow-none"], ["class", "text-danger", 4, "ngIf"], ["for", "lname"], ["type", "text", "formControlName", "lname", "name", "lname", "id", "lname", 1, "form-control", "shadow-none"], ["for", "email"], ["type", "email", "formControlName", "email", "name", "email", "id", "email", 1, "form-control", "shadow-none"], [1, "shadow-none", 3, "disabled", "click"], [1, "float-right", 3, "routerLink"], [1, "text-danger"]], template: function UpdateSubscriberComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h2", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 2);
@@ -2854,7 +2861,9 @@ UpdateSubscriberComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.createSubscriberForm.get("email").hasError("pattern") && ctx.createSubscriberForm.get("email").touched);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", ctx.createSubscriberForm.invalid);
-    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ1cGRhdGUtc3Vic2NyaWJlci5jb21wb25lbnQuY3NzIn0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](10, _c0));
+    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterLinkWithHref"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ1cGRhdGUtc3Vic2NyaWJlci5jb21wb25lbnQuY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](UpdateSubscriberComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -2926,7 +2935,8 @@ function ReadSubscribersComponent_tr_21_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](subscriber_r1.email);
 } }
-const _c0 = function (a2, a3) { return { id: "listing_pagination", itemsPerPage: 5, currentPage: a2, totalItems: a3 }; };
+const _c0 = function () { return ["/create-subscriber"]; };
+const _c1 = function (a2, a3) { return { id: "listing_pagination", itemsPerPage: 5, currentPage: a2, totalItems: a3 }; };
 class ReadSubscribersComponent {
     constructor(
     // injecte les services
@@ -2957,14 +2967,16 @@ class ReadSubscribersComponent {
         this.router.navigate(link);
     }
     deleteSubscriber(subscribers) {
-        // passe en paramètre l'id à la méthode deleteSubscriber() du subscribersService
-        this.subscribersService.deleteSubscriber(subscribers.id).subscribe((response) => {
-            this.subscribers = this.subscribers.filter(u => u !== subscribers);
-        });
+        if (window.confirm('Are sure you want to delete this record ?')) {
+            // passe en paramètre l'id à la méthode deleteSubscriber() du subscribersService
+            this.subscribersService.deleteSubscriber(subscribers.id).subscribe((response) => {
+                this.subscribers = this.subscribers.filter(u => u !== subscribers);
+            });
+        }
     }
 }
 ReadSubscribersComponent.ɵfac = function ReadSubscribersComponent_Factory(t) { return new (t || ReadSubscribersComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_service_subscribers_service__WEBPACK_IMPORTED_MODULE_1__["SubscribersService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"])); };
-ReadSubscribersComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReadSubscribersComponent, selectors: [["app-read-subscribers"]], decls: 25, vars: 7, consts: [[1, "container", "section"], [1, "mb-4"], [1, "spantitleh2"], [1, "d-inline"], ["href", "/create-subscriber", 1, "btn", "btn-sm", "btn-success", "float-right", "shadow-none"], [1, "table", "table-striped", "table-hover", "mx-auto", "bg-white"], [4, "ngFor", "ngForOf"], [1, "navigation"], ["id", "listing_pagination", "maxSize", "5", "directionLinks", "true", 3, "pageChange"], [1, "btn", "btn-secondary", "btn-sm", "shadow-none", 3, "click"], [1, "btn", "btn-primary", "btn-sm", "shadow-none", "ml-2", 3, "click"], [1, "btn", "btn-danger", "btn-sm", "shadow-none", "ml-2", 3, "click"]], template: function ReadSubscribersComponent_Template(rf, ctx) { if (rf & 1) {
+ReadSubscribersComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReadSubscribersComponent, selectors: [["app-read-subscribers"]], decls: 25, vars: 9, consts: [[1, "container", "section"], [1, "mb-4"], [1, "spantitleh2"], [1, "d-inline"], [1, "btn", "btn-sm", "btn-success", "float-right", "shadow-none", 3, "routerLink"], [1, "table", "table-striped", "table-hover", "mx-auto", "bg-white"], [4, "ngFor", "ngForOf"], [1, "navigation"], ["id", "listing_pagination", "maxSize", "5", "directionLinks", "true", 3, "pageChange"], [1, "btn", "btn-secondary", "btn-sm", "shadow-none", 3, "click"], [1, "btn", "btn-primary", "btn-sm", "shadow-none", "ml-2", 3, "click"], [1, "btn", "btn-danger", "btn-sm", "shadow-none", "ml-2", 3, "click"]], template: function ReadSubscribersComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h2", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 2);
@@ -3007,9 +3019,11 @@ ReadSubscribersComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](22, 1, ctx.subscribers, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](4, _c0, ctx.page, ctx.totalRecords)));
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], ngx_pagination__WEBPACK_IMPORTED_MODULE_4__["PaginationControlsComponent"]], pipes: [ngx_pagination__WEBPACK_IMPORTED_MODULE_4__["PaginatePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["TitleCasePipe"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyZWFkLXN1YnNjcmliZXJzLmNvbXBvbmVudC5jc3MifQ== */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](5, _c0));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](22, 2, ctx.subscribers, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](6, _c1, ctx.page, ctx.totalRecords)));
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], ngx_pagination__WEBPACK_IMPORTED_MODULE_4__["PaginationControlsComponent"]], pipes: [ngx_pagination__WEBPACK_IMPORTED_MODULE_4__["PaginatePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["TitleCasePipe"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyZWFkLXN1YnNjcmliZXJzLmNvbXBvbmVudC5jc3MifQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ReadSubscribersComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
